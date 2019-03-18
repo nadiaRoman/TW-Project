@@ -1,6 +1,7 @@
 html
 {
   background-image: url("back.jpg");
+  background-size: 100% 100% ;
 }
 h1
 {
@@ -9,6 +10,7 @@ h1
   margin-bottom: 10px;
   text-align: center;
   margin-top: 30px;
+ 
 }
 h4
 {
@@ -16,6 +18,7 @@ h4
   font-size: 10px;
   text-align: center;
   margin-bottom: 50px;
+
 }
 @media (min-width: 401px)
 {
@@ -36,6 +39,8 @@ nav ul
   margin: 0;
   overflow: hidden;
   position: fixed;
+  background: #ffcce6;
+  padding: 10px;
 }
 nav a:link,nav a:visited
 {
@@ -101,7 +106,7 @@ div
 #outer div ul .nav a 
 {
   background-color: none;
-  padding: 5px;
+  padding-top:30px;
   display: inline-block;
   margin-bottom: 10px;
   padding-bottom: 10px;
@@ -132,14 +137,17 @@ aside
 .container
 {
   box-sizing: border-box; 
-  padding: 16px;
+  padding-left: 400px;
+  padding-right: 400px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 
 }
 
 /* Full-width input fields */
 input[type=text], select 
 {
-  width: 50%;
+  width: 100%;
   padding: 15px;
   margin: 5px 0 22px 0;
   display: block;
@@ -161,7 +169,7 @@ button {
   margin: 8px 0;
   border: none;
   cursor: pointer;
-  width: 25%;
+  width: 100%;
   opacity: 0.9;
 }
 
