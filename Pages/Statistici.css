@@ -1,0 +1,100 @@
+h1
+{
+	font-family: Georgia;
+	font-size: 3rem;
+    color: black;
+    margin-bottom: 10px;
+    text-align: center;
+}
+h2
+{
+	font-family: Georgia;
+	font-size: 10px;
+    color: black;
+    margin-left: 50px;
+    text-align: center;
+}
+@media (min-width: 401px) {
+  header{
+    margin: 0 auto;
+    width: 400px;
+  }
+}
+nav
+{
+float:left;
+margin-left: 50px;
+}
+nav ul
+{
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  position: fixed;
+}
+nav a:link,nav a:visited
+{
+  display: block;
+  color: black;
+  width: 110px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+nav a:hover, nav a:active
+{
+  background-color: #ea76bc;
+  padding: 15px;
+}
+nav li
+{
+  float: left;
+}
+form
+{
+  position: absolute;
+  right: 35px;
+  width: 450px;
+  height: 20px;
+  float:left;
+}
+form > input[type=search]
+{
+  border: 1px solid blue; 
+  width: 270px;
+  padding: 7px;
+  margin: 5px 0 12px 0;
+  display: inline;
+  background: #f1f1f1;
+  color:purple;
+
+} 
+form > input[type=submit]
+{
+  width: 90px;
+  padding: 7px;
+  margin: 5px 0 12px 0;
+  display: inline;
+  background: #f1f1f1;
+  color:purple;
+}
+footer {
+		text-align: center;
+}
+h3, h4 {
+	font-family: Georgia;
+	font-size: 1rem;
+    color: black;
+    margin-bottom: 10px;
+    text-align: left;
+	margin-left: 30px;
+	margin-top: 30px;
+}
+
+div {
+	font-family: Georgia;
+	font-size: 1rem;
+    color: black;
+    margin-bottom: 10px;
+    text-align: center;
+}
