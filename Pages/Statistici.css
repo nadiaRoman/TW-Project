@@ -1,21 +1,29 @@
+html
+{
+  background-image: url(https://scontent-otp1-1.xx.fbcdn.net/v/t1.15752-9/48396396_228491861398004_2751463454064771072_n.jpg?_nc_cat=106&_nc_ht=scontent-otp1-1.xx&oh=3723c684afecdd2a76d253160d78c48d&oe=5D2327F8);
+  background-size: 100% 100% ;
+}
 h1
 {
-	font-family: Georgia;
-	font-size: 3rem;
-    color: black;
-    margin-bottom: 10px;
-    text-align: center;
+  font-family: Georgia, Arial, sans-serif;
+  font-size: 3rem;
+  margin-bottom: 10px;
+  text-align: center;
+  margin-top: 30px;
+ 
 }
 h2
 {
-	font-family: Georgia;
-	font-size: 10px;
-    color: black;
-    margin-left: 50px;
-    text-align: center;
+  font-family: Georgia;
+  font-size: 10px;
+  text-align: center;
+  margin-bottom: 50px;
+
 }
-@media (min-width: 401px) {
-  header{
+@media (min-width: 401px)
+{
+  header, nav, .nav a
+  {
     margin: 0 auto;
     width: 400px;
   }
@@ -31,6 +39,8 @@ nav ul
   margin: 0;
   overflow: hidden;
   position: fixed;
+  background: #ffcce6;
+  padding: 10px;
 }
 nav a:link,nav a:visited
 {
@@ -83,18 +93,8 @@ footer {
 }
 h3, h4 {
 	font-family: Georgia;
-	font-size: 1rem;
-    color: black;
+	font-size: 20px;
     margin-bottom: 10px;
-    text-align: left;
-	margin-left: 30px;
-	margin-top: 30px;
-}
-
-div {
-	font-family: Georgia;
-	font-size: 1rem;
-    color: black;
-    margin-bottom: 10px;
-    text-align: center;
+	margin-left: 100px;
+	margin-top: 100px;
 }
