@@ -1,0 +1,133 @@
+html
+{
+  background-image: url(https://scontent-otp1-1.xx.fbcdn.net/v/t1.15752-9/48396396_228491861398004_2751463454064771072_n.jpg?_nc_cat=106&_nc_ht=scontent-otp1-1.xx&oh=3723c684afecdd2a76d253160d78c48d&oe=5D2327F8);
+  background-size: 100% 100% ;
+}
+h1
+{
+  font-family: Georgia, Arial, sans-serif;
+  font-size: 3rem;
+  margin-bottom: 10px;
+  text-align: center;
+  margin-top: 30px;
+ 
+}
+h2
+{
+  font-family: Georgia;
+  font-size: 10px;
+  text-align: center;
+  margin-bottom: 50px;
+
+}
+@media (min-width: 401px)
+{
+  header, nav, .nav a
+  {
+    margin: 0 auto;
+    width: 400px;
+  }
+}
+nav
+{
+float:left;
+margin-left: 50px;
+}
+nav ul
+{
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  position: fixed;
+  background: #ffcce6;
+  padding: 10px;
+}
+nav a:link,nav a:visited
+{
+  display: block;
+  color: black;
+  width: 110px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+nav a:hover, nav a:active
+{
+  background-color: #ea76bc;
+  padding: 15px;
+}
+nav li
+{
+  float: left;
+}
+form
+{
+  position: absolute;
+  right: 35px;
+  width: 450px;
+  height: 20px;
+  float:left;
+}
+form > input[type=search]
+{
+  border: 1px solid blue; 
+  width: 270px;
+  padding: 7px;
+  margin: 5px 0 12px 0;
+  display: inline;
+  background: #f1f1f1;
+  color:purple;
+
+} 
+form > input[type=submit]
+{
+  width: 90px;
+  padding: 7px;
+  margin: 5px 0 12px 0;
+  display: inline;
+  background: #f1f1f1;
+  color:purple;
+}
+div 
+{
+  margin-right: 10px;
+  margin-left: 10px;
+  
+}
+
+#outer div ul .nav a 
+{
+  background-color: none;
+  padding-top:30px;
+  display: inline-block;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  width: 90%;
+}
+
+div div li a {
+  font-size: 120%;
+  color: blue;
+}
+aside
+{
+  float:right;
+  margin-top: 50px;
+  margin-right: 40px;
+}
+
+footer {
+		text-align: center;
+}
+p {
+	font-family: Georgia;
+	font-size: 20px;
+}
+
+h3 {
+	font-family: Georgia;
+	font-size: 20px;
+	text-align: left;
+	text-decoration: none;
+    color: black;
+}
