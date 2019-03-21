@@ -1,0 +1,144 @@
+
+@media only screen and (max-width: 800px) and (min-width: 401px) {
+  header, nav, .nav a
+  {
+    margin: 0 auto;
+    width: 800px;
+  }
+  html {
+    background-color: pink;
+    background-image: none;
+  }
+
+  h1
+  {
+  	font-size: 2.5em;
+
+  }
+ h4,form > input[type=search],form > input[type=submit]
+ {
+ 	font-size: 12px;
+ }
+
+ nav ul
+ {
+ 	float:right;
+ 	padding: 10px 5px 10px 5px;
+ }
+ nav li
+ {
+ 	font-size: 0.7em;
+ }
+ form
+ {
+  margin-top: 60px;
+  position:static;
+  float:none;
+  width: 450px;
+ }
+ .recomend {
+     width: 100%;
+
+ }
+#your
+{
+  height:170px;
+  width: 900px;
+}
+.recomandari {
+  display: grid;
+  grid-auto-flow:column; 
+  grid-gap: 5px;
+  background-color: none;
+  align-items: center;
+ }
+ .recomandari div
+{
+  width: 300px;
+}
+
+.recomandari img {
+  padding: 10px; 
+  width:150px;
+  height:200px;
+} 
+
+input[type=text], select 
+{
+  padding: 15px;
+  margin: 7px 0 7px 0;
+  border: 1.5px solid blue;
+}
+
+}
+
+@media (max-width: 800px) {
+
+nav a:link,nav a:visited
+{
+  
+  width: 150px;
+  
+}
+nav a:hover, nav a:active
+{
+  padding: 7px;
+}
+form > input[type=search]
+{
+  width: 230px;
+  padding: 7px;
+  margin-left: 15%;
+  display:inline-block;
+
+} 
+form > input[type=submit]
+{
+  padding: 7px;
+  margin-right: 10%;
+  display: inline-block;
+  border: 1.5px solid grey;
+}
+p
+{
+  font-size: 1.5em;
+  line-height: 100%;
+}
+#outer div ul .nav a 
+{
+ padding-top: 3%;
+}
+
+div div li a {
+  font-size: 1.0em;
+}
+aside
+{
+  float:none;
+  padding:5px;
+  display: absolute;
+  margin-top: 3%;
+  width:900px;
+}
+.desc
+{
+	font-size: 1.0rem;
+}
+
+label > b
+{
+font-size: 1.0em;
+}
+select
+{
+	font-size: 1.0em;
+}
+#s
+{
+  padding: 7px;
+}
+footer
+{
+	font-size: 0.9em;
+}
+}
