@@ -1,0 +1,194 @@
+html
+{
+  background-image: url("back.jpg");
+  background-size: 100% 100% ;
+}
+h1
+{
+  font-family: Georgia, Arial, sans-serif;
+  font-size: 3rem;
+  margin-bottom: 3%;
+  text-align: center;
+  margin-top: 10%;
+ 
+}
+h4
+{
+  font-family: Georgia;
+  font-size: 10px;
+  text-align: center;
+  margin-bottom: 15%;
+
+}
+@media (min-width: 401px)
+{
+  header, nav, .nav a
+  {
+    margin: 0 auto;
+    width: 400px;
+  }
+}
+nav
+{
+float:left;
+margin-left: 5%;
+}
+nav ul
+{
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  position: fixed;
+  background: #ffcce6;
+  padding: 10px;
+  border: 2px solid #ea76bc;
+}
+nav a:link,nav a:visited
+{
+  display: block;
+  color: black;
+  width: 110px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+nav a:hover, nav a:active
+{
+  background-color: #ea76bc;
+  padding: 15px;
+}
+nav li
+{
+  float: left;
+}
+form
+{
+  position: absolute;
+  right: 5%;
+  width: 370px;
+  height: 5%;
+  float:left;
+}
+form > input[type=search]
+{
+  border: 2px solid blue; 
+  width: 270px;
+  padding: 7px;
+  margin: 5px 0 12px 0;
+  display: inline;
+  background: #f1f1f1;
+
+} 
+form > input[type=submit]
+{
+  width: 90px;
+  padding: 7px;
+  margin: 5px 0 12px 0;
+  display: inline;
+  background: #f1f1f1;
+  color:purple;
+  border: 2px solid grey;
+}
+p
+{
+  display:block;
+  font-size: 2rem;
+  margin-top: 5%;
+  width:100%;
+  text-align: center;
+  text-decoration: none;
+  line-height: 45px;
+}
+#outer div ul .nav a 
+{
+  background-color: none;
+  padding-top: 8%;
+  display: inline-block;
+}
+
+div div li a {
+  font-size: 120%;
+  color: blue;
+}
+aside
+{
+  float:right;
+  margin-top: 15%;
+  padding-bottom: 400px;
+}
+
+/* Full-width input fields */
+input[type=text], select 
+{
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: block;
+  border: 2px solid blue;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus
+{
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: 2px solid green;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+   .recomend {
+     width: 50%;
+
+  }
+}
+#s
+{
+  margin-left: 50px;
+  padding: 14px 20px;
+}
+footer p
+{
+  font-size: 120%;
+}
+
+#del {
+    padding-top: 20px;
+}
+
+.rec {
+    font-size: 20px;
+    text-align: left;
+    word-wrap: break-word;
+    width: 400px;
+    float: right;
+    padding-right: 40px;
+}
+
+.imgrec {
+    padding-left: 50px;
+    padding-bottom: 20px;
+}
