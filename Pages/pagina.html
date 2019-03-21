@@ -7,6 +7,8 @@
 <meta name="description" content="Acest site are scopul de a te sfatui in privinta alegerii unei perechi de incaltaminte potrivita pentru o anumita ocazie">
 <link rel="stylesheet" href="pagina.css">
 <link rel="shortcut icon" href="poza.ico">
+<link rel="stylesheet" media="(max-width:400px)" href="mediapaginaphone.css"> 
+<!--<link rel="stylesheet" media="(max-width:800px)" href="mediapaginatablet.css">-->
 <title>My Shoes Assistant</title>
 </head>
 <body >
@@ -17,27 +19,26 @@
 <nav>
   <ul>
     <li><a href="#">Acasa</a></li>
-    <li><a href="#">Contul meu</a></li>
-    <li><a href="#">Iesire</a></li>
+    <li><a href="account.html" target="_blank">Contul meu</a></li>
+    <li><a href="login.html" target="_blank">Iesire</a></li>
   </ul>
-  <form>
-<input id="your" type="search" name="q" placeholder="Cauta aici">
-<input id="your" type="submit" value="Cautare">
+  <form >
+<input  type="search" name="q" placeholder="Cauta aici">
+<input  type="submit" value="Cautare">
 </form>
 </nav>
-
+<div>
 <br></br>
-<p class="nav">Bine ati venit pe pagina noastra!<br>
+<p>Bine ati venit pe pagina noastra!<br>
 Doriti o<a href="#recomend"> recomandare?</a></p>
-<img width="100%"  height="275" src="d.jpg"/>
-
+<img id="your" src="del.jpg"/>
+</div>
   <main>
     <aside>
         <div id="outer">
           <p>V-ar mai putea interesa...</p>
           <div id="inner">
-
-    <ul>
+     <ul>
       <li class="nav"><a href="#">Magazin incaltaminte</a></li>
       <li class="nav"><a href="#">Magazin de unde puteti procura tinuta</a></li>
       <li class="nav"><a href="#">Tendinte Primavara 2019</a></li>
@@ -48,18 +49,18 @@ Doriti o<a href="#recomend"> recomandare?</a></p>
       </aside>
   </main> 
   <div class="recomandari">
-    <div >
+    <div class="box">
       <a href="Link1"
         title="Titlu1">
         <img src="1.jpg" alt="Photo1"> </a>
         <div class="desc">Cele mai comode 5 modele de încălțăminte pentru femei</div>
       <a href="Link2"
         title="Titlu2"> 
-        <img width="200" height="300" src="2.jpg" alt="Photo2"> </a>
+        <img src="2.jpg" alt="Photo2"> </a>
         <div class="desc">Cele mai comode 5 modele de încălțăminte pentru barbati</div> 
         <br>  
     </div>
-    <div>
+    <div class="box">
       <a href="Link3"
         title="Titlu3">
         <img src="3.jpg" alt="Photo3"> </a>
@@ -69,10 +70,10 @@ Doriti o<a href="#recomend"> recomandare?</a></p>
         <img src="4.jpg" alt="Photo4"> </a>
         <div class="desc">Cele mai trendy 5 modele de incaltaminte ale sezonului pentru femei.</div> 
     </div>
-    <div>
+    <div class="box">
       <a href="Link5"
         title="Titlu5">
-        <img  src="5.jpg" alt="Photo5"> </a>
+        <img src="5.jpg" alt="Photo5"> </a>
         <div class="desc">Cele mai potrivite 5 modele de incaltaminte pentru tinutele de seara(Femei).</div> 
       <a href="Link6"
         title="Titlu6"> 
@@ -135,8 +136,8 @@ Doriti o<a href="#recomend"> recomandare?</a></p>
     </div>
 </div>
 <footer>
-  <p>Postat de: FII Girls</p>
-  <p>Informatii de contact: <a href="mailto:corina.garam@yahoo.com">our.team@yahoo.com</a>.</p>
+  <p>Postat de: TW Project Team<br>
+  Informatii de contact: <a href="mailto:corina.garam@yahoo.com">our.team@yahoo.com</a>.</p>
   </footer>
 </body>
 </html> 
